@@ -1,5 +1,5 @@
-﻿import {ThemeContext} from "./ThemeContextProvider.tsx";
-import {useContext} from "react";
+﻿import {useContext} from "react";
+import {ThemeContext} from "./ThemeContext.tsx";
 
 export default function Page() {
     const {theme, toggleTheme} = useContext(ThemeContext);
